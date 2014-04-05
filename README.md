@@ -1,10 +1,10 @@
-# Llt::Assessor
+# LLT::Assessor
 
-[![Version](http://allthebadges.io/LFDM/llt-assessor/badge_fury.png)](http://allthebadges.io/LFDM/llt-assessor/badge_fury)
-[![Dependencies](http://allthebadges.io/LFDM/llt-assessor/gemnasium.png)](http://allthebadges.io/LFDM/llt-assessor/gemnasium)
-[![Build Status](http://allthebadges.io/LFDM/llt-assessor/travis.png)](http://allthebadges.io/LFDM/llt-assessor/travis)
-[![Coverage](http://allthebadges.io/LFDM/llt-assessor/coveralls.png)](http://allthebadges.io/LFDM/llt-assessor/coveralls)
-[![Code Climate](http://allthebadges.io/LFDM/llt-assessor/code_climate.png)](http://allthebadges.io/LFDM/llt-assessor/code_climate)
+[![Version](http://allthebadges.io/latin-language-toolkit/llt-assessor/badge_fury.png)](http://allthebadges.io/latin-language-toolkit/llt-assessor/badge_fury)
+[![Dependencies](http://allthebadges.io/latin-language-toolkit/llt-assessor/gemnasium.png)](http://allthebadges.io/latin-language-toolkit/llt-assessor/gemnasium)
+[![Build Status](http://allthebadges.io/latin-language-toolkit/llt-assessor/travis.png)](http://allthebadges.io/latin-language-toolkit/llt-assessor/travis)
+[![Coverage](http://allthebadges.io/latin-language-toolkit/llt-assessor/coveralls.png)](http://allthebadges.io/latin-language-toolkit/llt-assessor/coveralls)
+[![Code Climate](http://allthebadges.io/latin-language-toolkit/llt-assessor/code_climate.png)](http://allthebadges.io/latin-language-toolkit/llt-assessor/code_climate)
 
 Provides various grading/assessment mechanisma on top off llt-diff
 
