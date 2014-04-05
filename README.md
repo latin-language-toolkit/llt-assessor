@@ -6,7 +6,7 @@
 [![Coverage](http://allthebadges.io/latin-language-toolkit/llt-assessor/coveralls.png)](http://allthebadges.io/latin-language-toolkit/llt-assessor/coveralls)
 [![Code Climate](http://allthebadges.io/latin-language-toolkit/llt-assessor/code_climate.png)](http://allthebadges.io/latin-language-toolkit/llt-assessor/code_climate)
 
-Provides various grading/assessment mechanisma on top off llt-diff
+Provides various grading/assessment mechanisma on top off llt-review
 
 ## Installation
 

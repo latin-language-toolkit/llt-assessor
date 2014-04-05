@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = LLT::Assessor::VERSION
   spec.authors       = ["LFDM"]
   spec.email         = ["1986gh@gmail.com"]
-  spec.summary       = %q{Provides various grading/assessment mechanisma on top off llt-diff}
+  spec.summary       = %q{Provides various grading/assessment mechanisma on top off llt-review}
   spec.description   = spec.summary
   spec.homepage      = ""
   spec.license       = "MIT"
@@ -24,5 +24,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov", "~> 0.7"
 
   spec.add_dependency 'llt-core'
-  #spec.add_dependency 'llt-diff'
+  #spec.add_dependency 'llt-review'
 end
