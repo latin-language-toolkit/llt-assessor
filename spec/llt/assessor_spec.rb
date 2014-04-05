@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Llt::Assessor do
+describe LLT::Assessor do
   it 'should have a version number' do
-    Llt::Assessor::VERSION.should_not be_nil
+    LLT::Assessor::VERSION.should_not be_nil
   end
 
   it 'should do something useful' do

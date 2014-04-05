@@ -1,6 +1,6 @@
 require "llt/assessor/version"
 
-module Llt
+module LLT
   module Assessor
     # Your code goes here...
   end

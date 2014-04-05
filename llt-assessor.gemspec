@@ -5,7 +5,7 @@ require 'llt/assessor/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "llt-assessor"
-  spec.version       = Llt::Assessor::VERSION
+  spec.version       = LLT::Assessor::VERSION
   spec.authors       = ["LFDM"]
   spec.email         = ["1986gh@gmail.com"]
   spec.summary       = %q{Provides various grading/assessment mechanisma on top off llt-diff}
