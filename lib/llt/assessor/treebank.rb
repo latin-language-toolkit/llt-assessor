@@ -9,7 +9,7 @@ module LLT
 
       container_alias :metrics
 
-      def initialize(diff, id = 'treebank-assessment')
+      def initialize(diff, id = 'assessment')
         @diff = diff
         super(id)
       end
@@ -28,6 +28,8 @@ module LLT
           new_metric.assess
           add(new_metric)
         end
+        @diff.add(self)
+        self
       end
 
       private
