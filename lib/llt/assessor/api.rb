@@ -1,6 +1,7 @@
 require 'sinatra/base'
 require 'sinatra/respond_with'
 require 'llt/assessor'
+require 'llt/review'
 
 class Api < Sinatra::Base
   register Sinatra::RespondWith
