@@ -21,6 +21,12 @@ class Api < Sinatra::Base
     # contain the assessments as well - however this is not really flexible,
     # and we wouldn't be able to return such an output for files that were
     # not constructed by llt-review (which might never happen though!)
+    #
+    # For now we live with the limited flexibility
+    diff.diffs.each do |comparison|
+      assessor = LLT::Assessor.const_get(klass.capitalize).new(comparison)
+      assessor.assess(metrics)
+    end
 
     respond_to do |f|
       f.xml { diff.to_xml }
