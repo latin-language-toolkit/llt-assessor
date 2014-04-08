@@ -1,6 +1,7 @@
 module LLT
   class Assessor::Treebank
     class Conll < Assessor::Treebank
+      require 'llt/assessor/treebank/conll/score'
       require 'llt/assessor/treebank/conll/las'
 
       def initialize(diff)
