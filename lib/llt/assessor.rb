@@ -1,7 +1,8 @@
 require "llt/assessor/version"
+require 'llt/core/structures'
 
 module LLT
   module Assessor
-    # Your code goes here...
+    require 'llt/assessor/treebank'
   end
 end
