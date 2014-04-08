@@ -16,7 +16,7 @@ module LLT
 
       def assess(diff)
         stats = diff.report[score_location]
-        @score = (stats.right.to_f / stats.total * 100).round(2)
+        @score = percentage_of(stats.right, stats.total)
       end
 
       def id
@@ -33,6 +33,12 @@ module LLT
 
       def xml_attributes
         { score: @score }
+      end
+
+      private
+
+      def percentage_of(part, total)
+        (part.to_f / total * 100).round(2)
       end
     end
   end
