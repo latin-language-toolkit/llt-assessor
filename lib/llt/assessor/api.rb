@@ -26,7 +26,7 @@ class Api < Sinatra::Base
     # For now we live with the limited flexibility
     diff.diffs.each do |comparison|
       assessor = LLT::Assessor.const_get(klass.capitalize).new(comparison)
-      assessor.assess(metrics)
+      assessor.assess(*metrics)
     end
 
     respond_to do |f|
