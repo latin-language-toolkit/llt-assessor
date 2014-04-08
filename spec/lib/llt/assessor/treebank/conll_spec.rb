@@ -52,6 +52,7 @@ describe LLT::Assessor::Treebank::Conll do
       conll.should_not be_empty
       conll['LAS'].score.should == 60.0
       conll['UAS'].score.should == 80.0
+      conll['LA'].score. should == 60.0
     end
   end
 end
