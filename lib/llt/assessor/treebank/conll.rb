@@ -3,6 +3,7 @@ module LLT
     class Conll < Assessor::Treebank
       require 'llt/assessor/treebank/conll/score'
       require 'llt/assessor/treebank/conll/las'
+      require 'llt/assessor/treebank/conll/uas'
 
       def initialize(diff)
         super(diff, :conll)
@@ -23,7 +24,7 @@ module LLT
 
       private
 
-      METRICS = %i{ las }
+      METRICS = %i{ las uas }
       def compute_metrics
         METRICS.each do |metric|
           new_metric = self.class.const_get(metric.to_s.capitalize).new
