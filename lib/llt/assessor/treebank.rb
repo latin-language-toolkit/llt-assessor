@@ -9,9 +9,9 @@ module LLT
 
       container_alias :metrics
 
-      def initialize(diff)
+      def initialize(diff, id = 'treebank-assessment')
         @diff = diff
-        super('treebank-assessment')
+        super(id)
       end
 
       def assess(*metrics)
