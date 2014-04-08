@@ -14,6 +14,14 @@ module LLT
         super(id)
       end
 
+      def xml_tag
+        @id
+      end
+
+      def xml_attributes
+        {}
+      end
+
       def assess(*metrics)
         metrics.each do |metric|
           new_metric = metric_class(metric).new(@diff)
